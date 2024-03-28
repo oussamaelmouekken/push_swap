@@ -26,10 +26,7 @@ void	algo(int *tab, t_stack *a)
 	free_arr(tab);
 	free_node(a);
 }
-void ft_leak()
-{
-	system("leaks push_swap");
-}
+
 int	main(int ac, char **av)
 {
 	t_stack	*a;

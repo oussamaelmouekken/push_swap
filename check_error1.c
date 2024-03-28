@@ -16,9 +16,7 @@ int	check_double1(int *tab, int size)
 {
 	int	i;
 	int	j;
-	int	swap;
 
-	swap = 0;
 	i = 0;
 	while (i < size - 1)
 	{
